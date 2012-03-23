@@ -1,0 +1,274 @@
+/* BASIC SETUP */
+
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    font-size: 100%;
+    line-height: 150%;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Meiryo','Hiragino Maru Gothic Pro',Helvetica, Arial,sans-serif;
+    font-size: 12px;
+    color: #222;
+    background: #FFF;
+    background-repeat: no-repeat;
+}
+
+/* CONTENT */
+
+#content {
+    padding: 30px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* TABLE */
+
+.table {
+    display: table;
+    left:30px;
+    border: 1px #FFF solid;
+    font-size: 10px;
+}
+
+.tr {
+    display: table-row;
+    font-size: 9px;
+}
+
+.th {
+    display: table-row;
+    background: #AAA;
+    font-size: 11px;
+}
+
+.td {
+    display: table-cell;
+    margin: 1px;
+    border: 1px #FFF solid;
+}
+
+/* TABLE BLOODLOG */
+
+#scoreboard {
+    margin: 20px 10px 5px 30px;
+}
+
+p.project {
+    margin: 20px 5px 5px 10px;
+}
+
+div.completed {
+    color: #030;
+    background: #DED;
+}
+
+div.completed:hover {
+    background: #EFE;
+}
+
+div.ongoing {
+    color: #333;
+    background: #EEE;
+}
+
+div.ongoing:hover {
+    background: #FFF;
+}
+
+div.unlocked {
+    width: 50px;
+    text-align: center;
+}
+
+div.name {
+    width: 330px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+div.score {
+    width: 150px;
+    text-align: center;
+}
+
+.multi > .tr {
+    display: none;
+}
+
+.multi > .tr > .name {
+    width: 320px;
+    padding-left: 20px;
+}
+
+input.checkbox {
+    z-index:2;
+    opacity:0;
+    position: relative;
+    float: left;
+    left: -15px;
+    margin-right: -20px;
+}
+
+input.checkbox + .multi:before{
+    font-family: monospace;
+    font-size: 10px;
+    text-align: middle;
+    content: "►";
+    position: relative;
+    float: left;
+    left: -15px;
+    margin-right: -20px;
+    -webkit-transition: font-size 0.2s ease-in-out;
+}
+
+input.checkbox:hover + .multi:before {
+    color: #00F;
+    font-size: 12px;
+}
+
+input.checkbox:checked + .multi:before {
+    content: "▼";
+}
+
+input.checkbox:checked + .multi > .tr {
+    display: table-row;
+}
+
+
+/* PROGRESS RATE */
+
+.progress_rate {
+    border: 1px solid #CCC;
+    width: 540px;
+    margin: 2px 5px 2px 0;
+    padding: 1px;
+    background: #FFF;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+.progress_rate div {
+    background: -moz-linear-gradient(top,#0F0,#3F3 30%,#6F6 50%,#3F3 70%,#0F0);
+    background: -webkit-gradient(linear,left top,left bottom, from(#0F0), color-stop(0.3,#3F3),color-stop(0.5,#6F6),color-stop(0.7,#3F3),to(#0F0));
+    background-color: #6F6;
+    height: 8px;
+}
+
+.progress_rate span.completed {
+    float:left;
+    background: -moz-linear-gradient(top,#0F0,#3F3 30%,#6F6 50%,#3F3 70%,#0F0);
+    background: -webkit-gradient(linear,left top,left bottom, from(#0F0), color-stop(0.3,#3F3),color-stop(0.5,#6F6),color-stop(0.7,#3F3),to(#0F0));
+    background-color: #6F6;
+    height: 8px;
+}
+
+.progress_rate span.ongoing {
+    float:left;
+    background: -moz-linear-gradient(top,#999,#CCC 30%,#EEE 50%,#CCC 70%,#999);
+    background: -webkit-gradient(linear,left top,left bottom, from(#999), color-stop(0.3,#CCC),color-stop(0.5,#EEE),color-stop(0.7,#CCC),to(#999));
+    background-color: #666;
+    height: 8px;
+}
+
+
+/* REPORT */
+
+.report{
+    width:540px;
+    margin: 20px 5px 5px 0px;
+    color: #0A0;
+    background: #DFD;
+}
+
+.report strong{
+    color: #0A0;
+    margin-left: 40px;
+}
+
+
+.reportname{
+    width: 390px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.reportscore{
+    width: 130px;
+    text-align: center;
+}
+
+
+/* TABBED PANE */
+#scorepanes{
+    position: relative;
+}
+
+.radio{
+    position:absolute;
+    left:10px;
+}
+
+.categorysummary{
+    position:relative;
+    margin:4px;
+    margin-left:30px;
+}
+
+.categorysummary > .progress_rate {
+    position:absolute;
+    width: 200px;
+    top:0px;
+    left:270px;
+
+}
+
+.radio:nth-of-type(1){
+    top:0.2em;
+}
+
+.radio:nth-of-type(2){
+    top:1.9em;
+}
+
+.radio:nth-of-type(3){
+    top:3.6em;
+}
+
+.radio:nth-of-type(4){
+    top:5.3em;
+}
+
+.radio:nth-of-type(5){
+    top:7.0em;
+}
+
+.radio:nth-of-type(6){
+    top:8.7em;
+}
+
+.category{
+    display:none;
+}
+
+.radio:checked + .category{
+    display:block;
+}
+
+/* FOOTER */
+
+#footer {
+    height: 120px;
+    width: 640px;
+    text-align: center;
+    font-size: 10px;
+    color: #666;
+}

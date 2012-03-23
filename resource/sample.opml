@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>sample</title>
+    <expansionState>0,1,2,9,15,20,22,25,29,31,38,45,52,59,66,67,68,75,81,82,89,95,100,102,105,109,111,112,113,120,126,131,133,136,140,142,145,149,151,154,158,160,161,162,169,175,180,185,187,190,194</expansionState>
+  </head>
+  <body>
+    <outline text="カテゴリ1" _status="indeterminate">
+      <outline text="プロジェクト1" _status="indeterminate">
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク1" _status="checked" pts="200"/>
+          <outline text="タスク2" _status="checked" pts="200"/>
+          <outline text="タスク3" _status="checked" pts="200"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="200"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+        </outline>
+        <outline text="タスクリスト2" _status="indeterminate">
+          <outline text="タスク7" _status="checked" pts="200"/>
+          <outline text="タスク8" pts="400"/>
+          <outline text="タスク9" _status="checked" pts="200"/>
+          <outline text="タスク10" pts="300"/>
+          <outline text="タスク11" pts="200"/>
+        </outline>
+      </outline>
+      <outline text="プロジェクト2" _status="indeterminate">
+        <outline text="タスク1" _status="checked" pts="400"/>
+        <outline text="タスク2" _status="checked" pts="400"/>
+        <outline text="タスク3" pts="400"/>
+        <outline text="タスク4" pts="500"/>
+      </outline>
+      <outline text="プロジェクト3" _status="indeterminate">
+        <outline text="タスク1" pts="300"/>
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク2" _status="checked" pts="300"/>
+          <outline text="タスク3" _status="checked" pts="300"/>
+        </outline>
+        <outline text="タスクリスト2">
+          <outline text="タスク4" pts="400"/>
+          <outline text="タスク5" pts="400"/>
+        </outline>
+        <outline text="タスク6" _status="checked" pts="200"/>
+      </outline>
+      <outline text="プロジェクト4" _status="checked">
+        <outline text="タスク1" _status="checked" pts="2500"/>
+        <outline text="タスクリスト2" _status="checked">
+          <outline text="タスク2" _status="checked" pts="500"/>
+          <outline text="タスク3" _status="checked" pts="500"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="600"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+          <outline text="タスク7" _status="checked" pts="500"/>
+        </outline>
+        <outline text="タスクリスト3" _status="checked">
+          <outline text="タスク2" _status="checked" pts="500"/>
+          <outline text="タスク3" _status="checked" pts="500"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="600"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+          <outline text="タスク7" _status="checked" pts="500"/>
+        </outline>
+        <outline text="タスクリスト4" _status="checked">
+          <outline text="タスク2" _status="checked" pts="500"/>
+          <outline text="タスク3" _status="checked" pts="500"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="600"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+          <outline text="タスク7" _status="checked" pts="500"/>
+        </outline>
+        <outline text="タスクリスト5" _status="checked">
+          <outline text="タスク2" _status="checked" pts="500"/>
+          <outline text="タスク3" _status="checked" pts="500"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="600"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+          <outline text="タスク7" _status="checked" pts="500"/>
+        </outline>
+        <outline text="タスクリスト6" _status="checked">
+          <outline text="タスク2" _status="checked" pts="500"/>
+          <outline text="タスク3" _status="checked" pts="500"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="600"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+          <outline text="タスク7" _status="checked" pts="500"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="カテゴリ2" _status="indeterminate">
+      <outline text="プロジェクト1" _status="indeterminate">
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク1" _status="checked" pts="200"/>
+          <outline text="タスク2" _status="checked" pts="200"/>
+          <outline text="タスク3" _status="checked" pts="200"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="200"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+        </outline>
+        <outline text="タスクリスト2" _status="indeterminate">
+          <outline text="タスク7" _status="checked" pts="200"/>
+          <outline text="タスク8" pts="400"/>
+          <outline text="タスク9" _status="checked" pts="200"/>
+          <outline text="タスク10" pts="300"/>
+          <outline text="タスク11" pts="200"/>
+        </outline>
+      </outline>
+      <outline text="プロジェクト2" _status="indeterminate">
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク1" _status="checked" pts="200"/>
+          <outline text="タスク2" _status="checked" pts="200"/>
+          <outline text="タスク3" _status="checked" pts="200"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="200"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+        </outline>
+        <outline text="タスクリスト2" _status="indeterminate">
+          <outline text="タスク7" _status="checked" pts="200"/>
+          <outline text="タスク8" pts="400"/>
+          <outline text="タスク9" _status="checked" pts="200"/>
+          <outline text="タスク10" pts="300"/>
+          <outline text="タスク11" pts="200"/>
+        </outline>
+      </outline>
+      <outline text="プロジェクト3" _status="indeterminate">
+        <outline text="タスク1" _status="checked" pts="400"/>
+        <outline text="タスク2" _status="checked" pts="400"/>
+        <outline text="タスク3" pts="400"/>
+        <outline text="タスク4" pts="500"/>
+      </outline>
+      <outline text="プロジェクト4" _status="indeterminate">
+        <outline text="タスク1" pts="300"/>
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク2" _status="checked" pts="300"/>
+          <outline text="タスク3" _status="checked" pts="300"/>
+        </outline>
+        <outline text="タスクリスト2">
+          <outline text="タスク4" pts="400"/>
+          <outline text="タスク5" pts="400"/>
+        </outline>
+        <outline text="タスク6" _status="checked" pts="200"/>
+      </outline>
+      <outline text="プロジェクト5" _status="checked">
+        <outline text="タスク1" _status="checked" pts="2500"/>
+      </outline>
+    </outline>
+    <outline text="カテゴリ3" _status="indeterminate">
+      <outline text="プロジェクト1" _status="indeterminate">
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク1" _status="checked" pts="200"/>
+          <outline text="タスク2" _status="checked" pts="200"/>
+          <outline text="タスク3" _status="checked" pts="200"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="200"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+        </outline>
+        <outline text="タスクリスト2" _status="indeterminate">
+          <outline text="タスク7" _status="checked" pts="200"/>
+          <outline text="タスク8" pts="400"/>
+          <outline text="タスク9" _status="checked" pts="200"/>
+          <outline text="タスク10" pts="300"/>
+          <outline text="タスク11" pts="200"/>
+        </outline>
+      </outline>
+      <outline text="プロジェクト2" _status="indeterminate">
+        <outline text="タスク1" _status="checked" pts="400"/>
+        <outline text="タスク2" _status="checked" pts="400"/>
+        <outline text="タスク3" pts="400"/>
+        <outline text="タスク4" pts="500"/>
+      </outline>
+      <outline text="プロジェクト3" _status="indeterminate">
+        <outline text="タスク1" pts="300"/>
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク2" _status="checked" pts="300"/>
+          <outline text="タスク3" _status="checked" pts="300"/>
+        </outline>
+        <outline text="タスクリスト2">
+          <outline text="タスク4" pts="400"/>
+          <outline text="タスク5" pts="400"/>
+        </outline>
+        <outline text="タスク6" _status="checked" pts="200"/>
+      </outline>
+      <outline text="プロジェクト4" _status="indeterminate">
+        <outline text="タスク1" pts="300"/>
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク2" _status="checked" pts="300"/>
+          <outline text="タスク3" _status="checked" pts="300"/>
+        </outline>
+        <outline text="タスクリスト2">
+          <outline text="タスク4" pts="400"/>
+          <outline text="タスク5" pts="400"/>
+        </outline>
+        <outline text="タスク6" _status="checked" pts="200"/>
+      </outline>
+      <outline text="プロジェクト5" _status="indeterminate">
+        <outline text="タスク1" pts="300"/>
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク2" _status="checked" pts="300"/>
+          <outline text="タスク3" _status="checked" pts="300"/>
+        </outline>
+        <outline text="タスクリスト2">
+          <outline text="タスク4" pts="400"/>
+          <outline text="タスク5" pts="400"/>
+        </outline>
+        <outline text="タスク6" _status="checked" pts="200"/>
+      </outline>
+      <outline text="プロジェクト6" _status="checked">
+        <outline text="タスク1" _status="checked" pts="2500"/>
+      </outline>
+    </outline>
+    <outline text="カテゴリ4" _status="indeterminate">
+      <outline text="プロジェクト1" _status="indeterminate">
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク1" _status="checked" pts="200"/>
+          <outline text="タスク2" _status="checked" pts="200"/>
+          <outline text="タスク3" _status="checked" pts="200"/>
+          <outline text="タスク4" _status="checked" pts="200"/>
+          <outline text="タスク5" _status="checked" pts="200"/>
+          <outline text="タスク6" _status="checked" pts="200"/>
+        </outline>
+        <outline text="タスクリスト2" _status="indeterminate">
+          <outline text="タスク7" _status="checked" pts="200"/>
+          <outline text="タスク8" pts="400"/>
+          <outline text="タスク9" _status="checked" pts="200"/>
+          <outline text="タスク10" pts="300"/>
+          <outline text="タスク11" pts="200"/>
+        </outline>
+      </outline>
+      <outline text="プロジェクト2" _status="indeterminate">
+        <outline text="タスク1" _status="checked" pts="400"/>
+        <outline text="タスク2" _status="checked" pts="400"/>
+        <outline text="タスク3" pts="400"/>
+        <outline text="タスク4" pts="500"/>
+      </outline>
+      <outline text="プロジェクト3" _status="indeterminate">
+        <outline text="タスク1" _status="checked" pts="400"/>
+        <outline text="タスク2" _status="checked" pts="400"/>
+        <outline text="タスク3" pts="400"/>
+        <outline text="タスク4" pts="500"/>
+      </outline>
+      <outline text="プロジェクト4" _status="indeterminate">
+        <outline text="タスク1" pts="300"/>
+        <outline text="タスクリスト1" _status="checked">
+          <outline text="タスク2" _status="checked" pts="300"/>
+          <outline text="タスク3" _status="checked" pts="300"/>
+        </outline>
+        <outline text="タスクリスト2">
+          <outline text="タスク4" pts="400"/>
+          <outline text="タスク5" pts="400"/>
+        </outline>
+        <outline text="タスク6" _status="checked" pts="200"/>
+      </outline>
+      <outline text="プロジェクト5" _status="checked">
+        <outline text="タスク1" _status="checked" pts="2500"/>
+      </outline>
+    </outline>
+  </body>
+</opml>
