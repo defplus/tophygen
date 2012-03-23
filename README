@@ -1,4 +1,4 @@
-吐血実績システム(http://defplus.net/bloodlog.htm)のような、
+吐血実績システムのような、 http://defplus.net/bloodlog.htm
 自分専用の実績の一覧を表示するHTMLを生成するプログラムです。
 
 まず、手元にOPML(Outline Processor Markup Language)形式でつくった実績リストを用意します。
@@ -10,7 +10,7 @@
     -タスク（例：本文第１章を読む 100pts）
     -タスク（例：本文第２章を読む 100pts）
    -タスク（例：感想を書く 300pts）
-詳細は(sample.opml)を参考にしてください。
+詳細は(resource/sample.opml)を参考にしてください。
 
 OPMLを編集する際にはOutlineエディタを使うと便利です。
 (僕はOmniOutlinerを使っています。)
