@@ -1,5 +1,6 @@
 package net.defplus.trophygen
 import scala.collection.mutable.ArrayBuffer
+import com.sun.org.apache.xalan.internal.xsltc.compiler.ForEach
 
 // スコアからランク(称号)を計算するのためのヘルプオブジェクト。
 // Lvに達するためにLv*Lv*100のポイントを必要にしてある。
@@ -20,6 +21,9 @@ object ScoreRank extends RankChecker[Int, String](0, "Lv1") {
   //  +=(500000, "深海帝国皇帝") += (560000, "深海連邦総長") += (625000, "深海星界王")
   //  +=(700000, "深海銀河覇者") += (785000, "深海宇宙魔王") += (875000, "深海次元神")
   //  +=(1000000, "深海超越存在")
+  //  def main(args: Array[String]) {
+  //    println(ScoreRank.check(300000)) // (Lv54,302500)
+  //  }
 }
 
 // RPGでよくある経験値とレベルの関係を表現するデータ構造。
@@ -35,17 +39,10 @@ class RankChecker[T, U](var key: T, var value: U) {
   }
 
   def check(comp: Comparable[T]): (U, T) = {
-    var firsttime = true
-    for (rank <- ranks) {
-      if (rank.judge(comp)) {
-        value = rank.value
-      } else {
-        if (firsttime) {
-          key = rank.key
-          firsttime = false
-        }
-      }
-    }
+    // 現在のkey(経験値)で取得できる最大のvalue(レベル)を取得する。
+    value = ranks.filter(_.judge(comp)).last.value
+    // 現在のkey(経験値)で取得できない最小のkey(経験値)（つまりNext経験値）を取得する。
+    key = ranks.filterNot(_.judge(comp)).head.key
     (value, key)
   }
 
